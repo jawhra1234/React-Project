@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../Logo'
 
+
 function Footer() {
   return (
     <section className="relative overflow-hidden py-10 bg-gray-400 border border-t-2 border-t-black">
@@ -29,7 +30,7 @@ function Footer() {
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/features"
                                     >
                                         Features
                                     </Link>
@@ -37,7 +38,7 @@ function Footer() {
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/pricing"
                                     >
                                         Pricing
                                     </Link>
@@ -45,7 +46,7 @@ function Footer() {
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/affiliate"
                                     >
                                         Affiliate Program
                                     </Link>
@@ -53,7 +54,7 @@ function Footer() {
                                 <li>
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/presskit"
                                     >
                                         Press Kit
                                     </Link>
@@ -70,7 +71,7 @@ function Footer() {
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/account"
                                     >
                                         Account
                                     </Link>
@@ -78,7 +79,7 @@ function Footer() {
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/help"
                                     >
                                         Help
                                     </Link>
@@ -86,7 +87,7 @@ function Footer() {
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/contact"
                                     >
                                         Contact Us
                                     </Link>
@@ -94,7 +95,7 @@ function Footer() {
                                 <li>
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/support"
                                     >
                                         Customer Support
                                     </Link>
@@ -111,7 +112,7 @@ function Footer() {
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/terms"
                                     >
                                         Terms &amp; Conditions
                                     </Link>
@@ -119,7 +120,7 @@ function Footer() {
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/privacy"
                                     >
                                         Privacy Policy
                                     </Link>
@@ -127,7 +128,7 @@ function Footer() {
                                 <li>
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="/licensing"
                                     >
                                         Licensing
                                     </Link>

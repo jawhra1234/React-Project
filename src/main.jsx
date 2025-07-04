@@ -8,6 +8,18 @@ import store from './store/store.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import { AuthLayout, Login } from './components/index.js'
+import Features from './components/Footer/Features';
+import Pricing from './components/Footer/Pricing';
+import Affiliate from './components/Footer/Affiliate';
+import PressKit from './components/Footer/PressKit';
+import Account from './components/Footer/Account';
+import Help from './components/Footer/Help';
+import Contact from './components/Footer/Contact';
+import Support from './components/Footer/Support';
+import Terms from './components/Footer/Terms';
+import Privacy from './components/Footer/Privacy';
+import Licensing from './components/Footer/Licensing';
+
 
 
 import AddPost from "./pages/AddPost";
@@ -74,6 +86,19 @@ const router = createBrowserRouter([
             path: "/post/:slug",
             element: <Post />,
         },
+         
+         { path: "/features", element: <Features /> },
+{ path: "/pricing", element: <Pricing /> },
+{ path: "/affiliate", element: <Affiliate /> },
+{ path: "/presskit", element: <PressKit /> },
+{ path: "/account", element: <Account /> },
+{ path: "/help", element: <Help /> },
+{ path: "/contact", element: <Contact /> },
+{ path: "/support", element: <Support /> },
+{ path: "/terms", element: <Terms /> },
+{ path: "/privacy", element: <Privacy /> },
+{ path: "/licensing", element: <Licensing /> },
+
     ],
 },
 ])
